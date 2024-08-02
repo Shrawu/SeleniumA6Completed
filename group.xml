@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="6" name="Test" parallel="classes">
+		<groups>
+			<run>
+				<include name="smoke">
+
+				</include>
+
+
+			</run>
+
+		</groups>
+		<classes>
+			<class name="BatchExectionFashion.Ajoi" />
+			<class name="BatchExectionFashion.Amazon" />
+			<class name="BatchExectionFashion.Flipkart" />
+			<class name="BatchExecutionTravel.AbhiAbhi" />
+			<class name="BatchExecutionTravel.Makemytip" />
+			<class name="BatchExecutionTravel.RebBus" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
